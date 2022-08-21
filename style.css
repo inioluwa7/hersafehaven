@@ -1,6 +1,6 @@
 
 .jumbotron {
-    background-image: url(/images/first.jpg);
+    background-image: url(images/first.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@
    }
 
 .earth {
-    background-image: url(/images/earth.png);
+    background-image: url(images/earth.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
     animation: earth 6s infinite linear ;
 }
 .girl {
-    background-image: url(/images/girl.jpg);
+    background-image: url(images/girl.jpg);
     background-size: contain;
     overflow: hidden;
 }
@@ -35,7 +35,7 @@
 }
 
 .abt {
-    background-image: url(/images/second.jpg);
+    background-image: url(images/second.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,12 +44,12 @@
 
 @keyframes slide {
     25% {
-        background-image: url(/images/second.jpg);
+        background-image: url(images/second.jpg);
     }
     50% {
-        background-image: url(/images/third.jpg);
+        background-image: url(images/third.jpg);
     }
     100% {
-        background-image: url(/images/first.jpg);
+        background-image: url(images/first.jpg);
     }
 }
