@@ -1,0 +1,55 @@
+
+.jumbotron {
+    background-image: url(/images/first.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    animation: slide 20s infinite;
+   }
+
+.earth {
+    background-image: url(/images/earth.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 6rem;
+    animation: earth 6s infinite linear ;
+}
+.girl {
+    background-image: url(/images/girl.jpg);
+    background-size: contain;
+    overflow: hidden;
+}
+
+
+
+@keyframes earth {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.abt {
+    background-image: url(/images/second.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes slide {
+    25% {
+        background-image: url(/images/second.jpg);
+    }
+    50% {
+        background-image: url(/images/third.jpg);
+    }
+    100% {
+        background-image: url(/images/first.jpg);
+    }
+}
